@@ -1,12 +1,83 @@
-# React + Vite
+## *Weather Dashboard*🌤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive weather web app built with React.js that provides real-time weather information for any city worldwide. Includes light/dark theme toggle and elegant UI.
 
-Currently, two official plugins are available:
+[Live Demo](#) <!-- Add your deployed URL here -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Weather Dashboard Screenshot](./screenshot.png) <!-- Add screenshot path -->
 
-## Expanding the ESLint configuration
+## Features:
+## -Core Features
+-**City Search**: Get current weather by searching any city
+-Weather Details:
+  - Temperature (°C)
+  - Weather Condition & Icon
+  - Humidity (%)
+  - Wind Speed (km/h)
+  - Location Name
+- **Error Handling**:
+  - Invalid city alerts
+  - API error handling
+- **Loading States**: Animated spinner during data fetch
+- **Responsive Design**: Works on mobile & desktop
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Bonus Features Implemented:
+- **Theme Toggle**: Switch between light/dark modes
+- **CSS Animations**:
+  - Smooth theme transitions
+  - Loading spinner animation
+- **Auto-search**: Default location (Delhi) on initial load
+- **Optimized UI**:
+  - Gradient backgrounds
+  - Modern card design
+  - Interactive elements
+
+## Tech Stack:
+-Framework: React.js (Vite)
+-Styling: Vanilla CSS with modern flexbox/grid
+-API: OpenWeatherMap Current Weather Data
+-Build Tool: Vite
+-Deployment: Vercel/Netlify
+
+## Setup Instructions:
+### Prerequisites
+- Node.js (v16+)
+- npm (v8+)
+
+### Installation
+1. Clone repository:
+    git clone [your-repo-url]
+    cd weather-dashboard
+
+2. Install dependencies:
+    npm install
+
+3. Add API Key:
+- Create `.env` file in root directory
+    VITE_API_KEY=your_openweather_api_key
+
+4. Run locally:
+npm run dev
+
+## API Integration:
+-API Used: OpenWeatherMap Current Weather Data
+-Rate Limit: 60 calls/minute (free tier)
+-Key Management: Stored in environment variables
+
+## Deployment:
+1. Build for production:
+    npm run build
+
+2. Deploy to:
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start)
+
+## Future Enhancements:
+- 5-day weather forecast
+- Search history
+- Unit conversion (C/F)
+- Geolocation support
+- Air quality index
+
+
+
