@@ -2,9 +2,7 @@
 
 A responsive weather web app built with React.js that provides real-time weather information for any city worldwide. Includes light/dark theme toggle and elegant UI.
 
-[Live Demo](#) <!-- Add your deployed URL here -->
-
-![Weather Dashboard Screenshot](./screenshot.png) <!-- Add screenshot path -->
+![Weather Dashboard Screenshot]("C:\Users\KIIT\OneDrive\Pictures\Screenshots\Screenshot 2025-04-09 060923.png")("C:\Users\KIIT\OneDrive\Pictures\Screenshots\Screenshot 2025-04-09 061006.png")
 
 ## Features:
 ## -Core Features
@@ -69,8 +67,7 @@ npm run dev
     npm run build
 
 2. Deploy to:
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start)
+[![Deploy with Vercel](https://weather-app-nine-xi-10.vercel.app/)]
 
 ## Future Enhancements:
 - 5-day weather forecast
