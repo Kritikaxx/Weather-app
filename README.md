@@ -2,7 +2,8 @@
 
 A responsive weather web app built with React.js that provides real-time weather information for any city worldwide. Includes light/dark theme toggle and elegant UI.
 
-![Weather Dashboard Screenshot]("C:\Users\KIIT\OneDrive\Pictures\Screenshots\Screenshot 2025-04-09 060923.png")("C:\Users\KIIT\OneDrive\Pictures\Screenshots\Screenshot 2025-04-09 061006.png")
+![Weather Dashboard Screenshot](./img.png)
+![Weather Dashboard Screenshot](./img2.png)
 
 ## Features:
 ## -Core Features
